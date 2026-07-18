@@ -1,0 +1,20 @@
+﻿{
+    "product":  "Vectra External",
+    "version":  "1.13.1",
+    "cs2_build":  14171,
+    "tag":  "v1.13.1-cs2.14171",
+    "created_utc":  "2026-07-18T21:42:57.9224692Z",
+    "offset_dump_timestamp":  "2026-07-17T11:28:06.006240200+00:00",
+    "offset_source_sha256":  {
+                                 "offsets_cs":  "284B0C764259445E5E4E6A91A5EB303246DD0412A94B35FD10CDF02415872ED8",
+                                 "client_dll_cs":  "1CDDEE53E8BD4DC46A5D942E5DB387FFD0FA46F799C85AEB3911AB80D18F7830",
+                                 "animationsystem_dll_cs":  "4F5BF4596064721A5F7BB260D96544B43CEA87265C0B8EA07107D984A6622ADA",
+                                 "info_json":  "9455452D784AFF0DB95AA853A9F902DBF3C8B626F338D984588A9E7873755C9B"
+                             },
+    "executable":  "Vectra.External-v1.13.1-cs2.14171.exe",
+    "executable_sha256":  "EC3DC77D74933BEFAD31886D4A54B382EFFB1312A33FE0BE152BAE0DDB37F26A",
+    "native_menu":  "Vectra.Menu.Native.dll",
+    "native_menu_sha256":  "E7D0DBD7C11ACE9371009666050E8A348E51A234C2B1AB3CE26376BC0702B1B5",
+    "loader_executable":  "Vectra.Loader-v1.13.1-cs2.14171.exe",
+    "loader_sha256":  "3EB9A52492DC006F05D9BA681B7A71FBFF5A2D46B0CEE0D6C9D93D42219DA851"
+}

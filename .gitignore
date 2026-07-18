@@ -1,0 +1,24 @@
+# IDE and local state
+.vs/
+.vscode/
+*.user
+*.suo
+
+# .NET and native build output
+**/bin/
+**/obj/
+**/artifacts/
+**/Debug/
+**/Release/
+CS2.External/.release-staging/
+
+# Release binaries are published as GitHub Release assets.
+CS2.External/releases/**/versions/**
+!CS2.External/releases/**/versions/**/
+!CS2.External/releases/**/versions/**/release.json
+
+# Local diagnostics and archives
+*.log
+*.zip
+*.7z
+*.userprefs

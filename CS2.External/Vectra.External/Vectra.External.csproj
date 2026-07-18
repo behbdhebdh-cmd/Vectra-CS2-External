@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="Version.props" />
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\offsets\offsets.cs" Link="Offsets\offsets.cs" />
+    <Compile Include="..\..\offsets\client_dll.cs" Link="Offsets\client_dll.cs" />
+    <Compile Include="..\..\offsets\animationsystem_dll.cs" Link="Offsets\animationsystem_dll.cs" />
+    <Content Include="..\..\offsets\info.json" Link="Offsets\info.json" CopyToOutputDirectory="PreserveNewest" />
+    <Resource Include="..\IconsForWeapons\obs_icons.ttf" Link="Assets\obs_icons.ttf" />
+    <Resource Include="..\IconsForWeapons\obs_icons_svg.zip" Link="Assets\obs_icons_svg.zip" />
+    <PackageReference Include="ValveResourceFormat" Version="19.2.6339" />
+    <Content Include="..\ui\native-imgui\neverlose\examples\example_win32_directx9\bin\$(Configuration)\Vectra.Menu.Native.dll"
+             Link="Vectra.Menu.Native.dll" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"
+             Condition="Exists('..\ui\native-imgui\neverlose\examples\example_win32_directx9\bin\$(Configuration)\Vectra.Menu.Native.dll')" />
+  </ItemGroup>
+</Project>

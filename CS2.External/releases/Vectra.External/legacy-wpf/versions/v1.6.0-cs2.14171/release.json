@@ -1,0 +1,16 @@
+﻿{
+    "product":  "Vectra External",
+    "version":  "1.6.0",
+    "cs2_build":  14171,
+    "tag":  "v1.6.0-cs2.14171",
+    "created_utc":  "2026-07-17T11:35:03.2155768Z",
+    "offset_dump_timestamp":  "2026-07-17T11:28:06.006240200+00:00",
+    "offset_source_sha256":  {
+                                 "offsets_cs":  "284B0C764259445E5E4E6A91A5EB303246DD0412A94B35FD10CDF02415872ED8",
+                                 "client_dll_cs":  "1CDDEE53E8BD4DC46A5D942E5DB387FFD0FA46F799C85AEB3911AB80D18F7830",
+                                 "animationsystem_dll_cs":  "4F5BF4596064721A5F7BB260D96544B43CEA87265C0B8EA07107D984A6622ADA",
+                                 "info_json":  "9455452D784AFF0DB95AA853A9F902DBF3C8B626F338D984588A9E7873755C9B"
+                             },
+    "executable":  "Vectra.External-v1.6.0-cs2.14171.exe",
+    "executable_sha256":  "0B6E9689DC2C05CAF6CAA3DF38FF8FCF9337BA3234BD1A7EFA76C71241DC5BD9"
+}

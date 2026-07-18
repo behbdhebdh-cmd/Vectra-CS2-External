@@ -1,0 +1,14 @@
+# Local build and test output
+**/bin/
+**/obj/
+**/artifacts/
+.release-staging/
+ui/native-imgui/**/Debug/
+ui/native-imgui/**/Release/
+
+# Local IDE state
+.vs/
+*.user
+*.suo
+
+# Official packages under releases/ are intentionally kept.
