@@ -2,7 +2,7 @@
 
 This folder contains the managed external CS2 client, its tests, release tooling, and official packages. The native/internal client is separate and is not required here.
 
-> **Private matches only.** The client is intended for locally hosted or otherwise trusted private matches. Input features remain locked until private-match authorization is enabled for the current session.
+> Use the client only where you have permission. Input-capable features remain locked until their explicit authorization is enabled for the current session. No anti-cheat bypass is included.
 
 ## Versions
 
@@ -49,7 +49,7 @@ For setup, controls, safety gates, offsets, and release instructions, see [`Vect
 
 Version 1.7.0 introduces a restrained spectator-style ESP with crisp rounded boxes, integrated gradient health bars, muted Lavender/Glacier/Rose accents, compact glass labels and radar, and subtle 150 ms visibility transitions. Fresh configurations use a minimal core of box, name, health, and distance; optional detail remains available in the Visuals page.
 
-Version 1.8.0 expands the private-match aim assist with Head/Chest targeting, Crosshair/Closest/Most-visible priority, Smooth/Snap movement, freely captured hold keys, a stable target lock, a subtle overlay target marker, and a matching glass-style Aim page. Legacy profiles retain the earlier Always/Chest/Crosshair/Smooth behavior.
+Version 1.8.0 expands the aim assist with Head/Chest targeting, Crosshair/Closest/Most-visible priority, Smooth/Snap movement, freely captured hold keys, a stable target lock, a subtle overlay target marker, and a matching glass-style Aim page. Legacy profiles retain the earlier Always/Chest/Crosshair/Smooth behavior.
 
 Version 1.8.1 fixes aim visibility evaluation by addressing the spotted mask with the local controller slot instead of the pawn entity index. The Aim page now includes a **Require visible target** switch and a compact live status that exposes the active gate, visibility capture, candidate rejection counts, target lock, and planned/sent mouse movement.
 
@@ -59,7 +59,7 @@ Version 1.10.0 improves responsiveness and long-session efficiency. Startup work
 
 Version 1.10.1 repairs Skeleton ESP for CS2 build 14171. It resolves the current Source 2 model hierarchy from the generated schemas, accepts helper bones between clean display joints, reads each player's validated bone cache in one batch, and keeps valid body sections visible when a separate limb is incomplete. The visual remains a thin full-body accent with a restrained soft outline and no joint dots or labels.
 
-Version 1.11.0 adds the animated Vectra Loader as the normal release entry point. It verifies the packaged External SHA-256, opens CS2 through Steam when needed, waits for the real `cs2` process, performs a short stabilization handoff, starts External, and closes after a clear training-match confirmation. Internal remains visible as a disabled future option.
+Version 1.11.0 adds the animated Vectra Loader as the normal release entry point. It verifies the packaged External SHA-256, opens CS2 through Steam when needed, waits for the real `cs2` process, performs a short stabilization handoff, starts External, and closes after a clear launch confirmation. Internal remains visible as a disabled future option.
 
 Version 1.11.1 temporarily disables Skeleton ESP because the live model path remains under repair. The Visuals page shows **SKELETON ESP • CURRENTLY IN REPAIR**, old profiles cannot reactivate it, and capture planning skips all Skeleton ESP memory reads until the repair is complete.
 

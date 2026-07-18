@@ -26,7 +26,7 @@ Temporarily disables Skeleton ESP while its live model path remains under repair
 
 ## v1.11.0-cs2.14171
 
-Adds the animated Vectra Loader as the primary package entry point. The loader presents External alongside a disabled Internal preview, validates the packaged External SHA-256, opens CS2 through Steam when necessary, waits for `cs2.exe`, performs a stable three-second handoff, starts External, and closes after its training-match confirmation. Release manifests now carry separate Loader and External executable hashes.
+Adds the animated Vectra Loader as the primary package entry point. The loader presents External alongside a disabled Internal preview, validates the packaged External SHA-256, opens CS2 through Steam when necessary, waits for `cs2.exe`, performs a stable three-second handoff, starts External, and closes after its launch confirmation. Release manifests now carry separate Loader and External executable hashes.
 
 ## v1.10.1-cs2.14171
 
@@ -38,7 +38,7 @@ Adds adaptive 2/15/60/120 Hz runtime scheduling, feature-aware memory capture, d
 
 ## v1.6.1-cs2.14171
 
-Adds explicit local save/load configuration for external-client settings. The saved profile does not retain private-match authorization, which must be reconfirmed for every session.
+Adds explicit local save/load configuration for external-client settings. The saved profile does not retain session authorization, which must be reconfirmed for every session.
 
 ## v1.6.0-cs2.14171
 
@@ -50,7 +50,7 @@ Fixes self-player ESP by identifying and excluding the local pawn from ESP, rada
 
 ## v1.3.0-cs2.14170
 
-Adds a tightly bounded private-match aim assist with soft upper-body correction. Optimizes memory-region reuse and movement-aware ESP projection so moving players remain tracked smoothly at viewport edges and during short capture delays.
+Adds a tightly bounded aim assist with soft upper-body correction. Optimizes memory-region reuse and movement-aware ESP projection so moving players remain tracked smoothly at viewport edges and during short capture delays.
 
 ## v1.2.2-cs2.14170
 
