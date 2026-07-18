@@ -1,19 +1,25 @@
-# Vectra CS2 External
+Vectra CS2 External – Windows x64 External Framework
 
-Vectra CS2 External is a Windows x64 companion client for Counter-Strike 2. It combines a managed state reader and overlay with a native Dear ImGui control panel, a verified launcher, automated offset validation, local map-physics parsing, tests, and reproducible release tooling.
+Engineered as a high-performance companion client for Counter-Strike 2, Vectra combines a low-latency external overlay with a fully native Dear ImGui control center, backed by a verified secure launcher, dynamic memory resolution, real-time map-physics parsing, and a comprehensive release pipeline built for stability and precision.
 
-> Use the software only on systems and in environments where you have permission to do so. You are responsible for complying with applicable platform rules and local law.
+Disclaimer: This software is intended exclusively for use in authorized testing environments. The end-user assumes full responsibility for compliance with all applicable platform policies and local legislation.
 
-## Highlights
+Key Features
 
-- Native Dear ImGui/DirectX 9 settings menu hosted by a managed .NET 10 runtime
-- Verified launcher with Steam handoff and SHA-256 package validation
-- Player, weapon, item, bomb, radar, and off-screen overlay components
-- Configurable aim assistance with map-physics line-of-sight validation
-- Local grenade trajectory prediction using CS2 `world_physics` collision meshes
-- Automatic CS2 build and generated-offset compatibility checks
-- Deterministic External and Loader test suites
-- Versioned release manifests covering every shipped executable and native component
+    Sleek Native UI: Fully interactive settings panel powered by Dear ImGui and DirectX 9, running seamlessly on the .NET 10 runtime for responsive, flicker-free control.
+
+    Secure Bootstrapping: Verified launcher with Steam process handoff and SHA-256 integrity checks on every loaded module – no unexpected binaries, no surprises.
+
+    Complete Visual Suite: Full-spectrum overlay components including Player ESP, Weapon/Icons, Item pickups, Bomb status, Radar, and off-screen target markers – keep every threat in your peripheral vision.
+
+    Intelligent Aim Assistance: Adaptive targeting logic enhanced by line-of-sight verification using in-engine map-physics data – surgical precision without the noise.
+
+    Grenade Trajectory Prediction: Real-time grenade path preview leveraging CS2’s native world_physics collision meshes – land perfect smokes and molotovs every time.
+
+    Automatic Offset Management: Built-in compatibility checks against current CS2 builds with generated-offset fallback, ensuring functionality persists through game updates.
+
+    Stability & Validation: Rigorous external and loader test suites guarantee deterministic behavior under load, while versioned release manifests provide full transparency over every shipped executable and native component.
+
 
 ## Repository layout
 
